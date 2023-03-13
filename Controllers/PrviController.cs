@@ -35,5 +35,9 @@ namespace Paup_2023.Controllers
             ViewBag.GodinaRodjena = "1769";
             return View();
         }
+        public string VratiVrijeme()
+        {
+            return DateTime.Now.ToString();
+        }
     }
 }
